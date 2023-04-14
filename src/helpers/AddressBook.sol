@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.8.0;
 import { IERC20 } from "oz/token/ERC20/IERC20.sol";
-import { ICToken } from "tender/interfaces/CToken.sol";
-import { IComptroller } from "tender/interfaces/Comptroller.sol";
+import { ICToken } from "../interfaces/CToken.sol";
+import { IComptroller } from "../interfaces/Comptroller.sol";
 import {
   IGlpManager,
   IRewardTracker,
   IGmxVault,
   IStakedGlp,
   IRewardRouterV2
-} from "tender/interfaces/GMX.sol";
+} from "../interfaces/GMX.sol";
 
 // for when we swap to diamon
 struct GMXAddresses {

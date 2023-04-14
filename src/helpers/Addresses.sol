@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.8.0;
-import {IERC20} from 'tender/interfaces/Tokens.sol';
-import {ICToken} from 'tender/interfaces/CToken.sol';
-import {IComptroller} from 'tender/interfaces/Comptroller.sol';
+import {IERC20} from '../interfaces/Tokens.sol';
+import {ICToken} from '../interfaces/CToken.sol';
+import {IComptroller} from '../interfaces/Comptroller.sol';
 import {
   IRewardRouterV2,
   IStakedGlp,
@@ -10,7 +10,7 @@ import {
   IGlpManager,
   IGmxVault,
   IRewardRouterV2
-} from 'tender/interfaces/GMX.sol';
+} from '../interfaces/GMX.sol';
 
 contract ERC20Addresses {
   IERC20 public wETH =

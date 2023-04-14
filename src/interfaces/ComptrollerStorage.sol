@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: BSD-3-Clause
 pragma solidity >=0.8.10;
 
-import {ICToken} from "tender/interfaces/Tokens.sol";
-import {ITenderPriceOracle} from "tender/interfaces/TenderPriceOracle.sol";
+import {ICToken} from "./Tokens.sol";
+import {ITenderPriceOracle} from "./TenderPriceOracle.sol";
 
 contract UnitrollerAdminStorage {
     /**

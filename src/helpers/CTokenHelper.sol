@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: BSD-3-Clause
 pragma solidity >=0.8.0;
-import {IWETH, IERC20, ICToken} from 'tender/interfaces/Tokens.sol';
+import {IWETH, IERC20, ICToken} from '../interfaces/Tokens.sol';
 import {SafeMath} from 'openzeppelin-contracts/contracts/utils/math/SafeMath.sol';
 import {Addresses, IGlpManager, IGmxVault, IRewardRouterV2} from '../helpers/Addresses.sol';
-import {IComptroller, Market} from 'tender/interfaces/Comptroller.sol';
-import {ITenderPriceOracle} from 'tender/interfaces/TenderPriceOracle.sol';
+import {IComptroller, Market} from '../interfaces/Comptroller.sol';
+import {ITenderPriceOracle} from '../interfaces/TenderPriceOracle.sol';
 
 contract CTokenHelper is Addresses {
   using SafeMath for uint;
